@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ECDF24BF-DCFD-4D68-B9AD-9BBACD270F91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{34C0871A-3149-4F33-8A7D-6E3CCEF7BECA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApp", "ConsoleApp", "{59245B1A-B467-490D-8CDA-C70830BA2324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOMSecurityPrice.API", "src\API\AOMSecurityPrice.API\AOMSecurityPrice.API.csproj", "{A0CCEB03-B81F-4729-91B0-93045D1E5A4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0CCEB03-B81F-4729-91B0-93045D1E5A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CCEB03-B81F-4729-91B0-93045D1E5A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CCEB03-B81F-4729-91B0-93045D1E5A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CCEB03-B81F-4729-91B0-93045D1E5A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34C0871A-3149-4F33-8A7D-6E3CCEF7BECA} = {ECDF24BF-DCFD-4D68-B9AD-9BBACD270F91}
+		{59245B1A-B467-490D-8CDA-C70830BA2324} = {ECDF24BF-DCFD-4D68-B9AD-9BBACD270F91}
+		{A0CCEB03-B81F-4729-91B0-93045D1E5A4A} = {34C0871A-3149-4F33-8A7D-6E3CCEF7BECA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65476453-D78E-492F-AE8A-8E36EBAFFD20}
+	EndGlobalSection
+EndGlobal
