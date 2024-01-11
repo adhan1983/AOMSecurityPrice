@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/AOMSecurityPrice/FileContentIndex
+/.vs/AOMSecurityPrice/DesignTimeBuild
+/src/API/AOMSecurityPrice.API/bin/Debug/net6.0
+/src/API/AOMSecurityPrice.API/obj
+/.vs/AOMSecurityPrice/v17
+/.vs/AOMSecurityPrice/config
